@@ -12,7 +12,7 @@
 
 ## Introduction
 
-This project was an improvement on [Markdown Browser)](https://github.com/websemantics/markdown-browser) with better code layout and colored file icons.
+This project was an improvement on [Markdown Browser](https://github.com/websemantics/markdown-browser) with better code layout and colored file icons.
 
 ## Preview
 
