@@ -10,15 +10,13 @@
 ```
 > Github flavored, local file browser for viewing your project's markdown documentation files.
 
-## Introduction
-
-This project was an improvement on [Markdown Browser](https://github.com/websemantics/markdown-browser) with better code layout and colored file icons.
-
 ## Preview
 
 ![](https://github.com/websemantics/markdown-browser-plus/raw/master/resources/img/preview.gif)
 
 ## Getting Started
+
+This project was an improvement on [Markdown Browser](https://github.com/websemantics/markdown-browser) with better code layout and colored file icons. Follow the below instruction to get started,
 
 Clone this repository,
 
