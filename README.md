@@ -16,7 +16,7 @@ This project was an improvement on [Markdown Browser)](https://github.com/websem
 
 ## Preview
 
-![](https://github.com/websemantics/markdown-browser-plus/resources/img/raw/master/preview.gif)
+![](https://github.com/websemantics/markdown-browser-plus/raw/master/resources/img/preview.gif)
 
 ## Getting Started
 
