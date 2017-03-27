@@ -1,0 +1,132 @@
+html {
+    height: 100%}
+body {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+pre {
+    white-space: pre-wrap;
+}
+.icon {
+    color: #9a9a9a;
+    margin-right: 6px;
+    vertical-align: text-bottom;
+}
+._container, ._content, ._wrapper {
+    box-sizing: border-box;
+    height: 100%;
+    position: relative;
+}
+._tree, ._tree ul {
+    list-style: none;
+    margin: 0;
+}
+._wrapper {
+    background: #fff;
+    overflow: hidden;
+    padding-top: 0;
+    z-index: 1;
+}
+._content, ._sidebar {
+    display: block;
+    outline: 0;
+    overflow-y: scroll;
+}
+._container {
+    margin-left: 300px;
+    pointer-events: none;
+    z-index: 1;
+}
+._content {
+    font-size: .875rem;
+    pointer-events: auto;
+}
+._sidebar {
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    bottom: 0;
+    left: 0;
+    margin-top: 1px;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+._tree input[type=checkbox], ._tree ul {
+    display: none;
+}
+._content::-webkit-scrollbar, ._sidebar::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+}
+._content::-webkit-scrollbar-button, ._sidebar::-webkit-scrollbar-button {
+    display: none;
+}
+._content::-webkit-scrollbar-track, ._sidebar::-webkit-scrollbar-track {
+    background: #fff;
+}
+._content::-webkit-scrollbar-thumb, ._sidebar::-webkit-scrollbar-thumb {
+    background: padding-box #d2d2d2;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    min-height: 2rem;
+}
+._content::-webkit-scrollbar-thumb:active, ._sidebar::-webkit-scrollbar-thumb:active {
+    background: #aaa;
+    border-width: 2px;
+}
+._tree-wrapper {
+    min-height: 100%;
+    border-right: 1px solid #ddd;
+}
+._tree {
+    padding: 0 0 3.5rem;
+    width: 300px;
+    font-size: 14px;
+}
+._tree ul {
+    padding: 0;
+}
+._tree label, ._tree li a {
+    padding: 6px;
+    color: #4078c0;
+    text-decoration: none;
+    display: block;
+}
+._tree li, ._tree li+li {
+    margin: 0;
+    user-select: none;
+    line-height: 20px;
+    border-top: 1px solid #eee;
+}
+._tree>li:first-child {
+    border-top: 0;
+}
+._tree label {
+    margin-right: 11px;
+}
+._tree label:hover {
+    background: #f5f5f5;
+}
+._tree li a {
+    margin: -6px;
+}
+._tree a:active, ._tree a:focus {
+    color: #9A9A9A;
+}
+._tree input[type=checkbox]:checked+label+ul, ._tree input[type=checkbox]:checked+label:nth-of-type(n)+ul {
+    display: block;
+}
+._tree label svg.folder path {
+    fill: #80a6cd;
+}
+._tree label svg.folder path.open {
+    fill: none;
+}
+._tree input[type=checkbox]:checked+label svg.folder path.open {
+    fill: #fff;
+}

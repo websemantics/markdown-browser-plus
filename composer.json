@@ -1,0 +1,15 @@
+{
+    "name": "websemantics/markdown-browser-plus",
+    "description": "Github flavoured, local file browser for viewing your project's markdown documentation files.",
+    "require": {
+        "erusev/parsedown": "^1.6",
+        "websemantics/file-icons": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adnan M.Sagar PhD.",
+            "email": "adnan@websemantics.ca"
+        }
+    ]
+}

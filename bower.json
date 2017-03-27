@@ -1,0 +1,19 @@
+{
+  "name": "markdown-browser-plus",
+  "description": "Github flavoured, local file browser for viewing your project's markdown documentation files",
+  "homepage": "https://github.com/websemantics/markdown-browser-plus",
+  "authors": [
+    "Adnan M.Sagar, PhD. <adnan@websemantics.ca>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "prism": "^1.6.0"
+  }
+}
